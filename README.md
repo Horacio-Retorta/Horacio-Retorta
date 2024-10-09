@@ -26,3 +26,15 @@ GET /api/departamentos/ - Obtener un solo departamento por identificación
 POST /api/departamentos - Crear un nuevo departamento
 PUT /api/departamentos/ - Actualizar un departamento existente
 DELETE /api/departamentos/ - Eliminar un departamento por ID
+Notificaciones
+/Notificaciones: Lista las notificaciones enviadas a los estudiantes.
+/Notificaciones/estudiante: Devuelve las notificaciones enviadas a un estudiante específico.
+/Notificaciones/curso: Devuelve las notificaciones enviadas a un curso específico.
+Reportes
+/Reportes/inscripción: Devuelve un reporte de matrícula de la universidad.
+/Reportes/calificaciones: Devuelve un reporte de calificaciones de la universidad.
+/Reportes/financiero: Devuelve un reporte financiero de la universidad.
+Autenticación
+/login: Autentica a un usuario.
+/logout: Cierra la sesión de un usuario.
+/forgot-password: Envía un correo electrónico para restablecer la contraseña.
