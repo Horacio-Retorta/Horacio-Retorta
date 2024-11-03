@@ -1,0 +1,12 @@
+{
+  "name": "sistema-de-gestion-universitaria",
+  "version": "1.0.0",
+  "description": "Este proyecto es una API RESTful para gestionar una universidad, que permite la administración de estudiantes, cursos, profesores, departamentos, notificaciones y reportes. La aplicación también incluye funcionalidades de autenticación de usuario.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Horacio Martín Retorta",
+  "license": "ISC"
+}
