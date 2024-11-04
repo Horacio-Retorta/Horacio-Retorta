@@ -49,6 +49,7 @@ function generateId() {
 // Autenticación
 app.post('/login', (req, res) => {
     const { usuario, password } = req.body;
+    console.log("usuario: password: " + usuario + password);
     const user = db.usuarios.find(u => u.usuario === usuario && u.password === password);
     if (user) {
         loggedInUser = user;
